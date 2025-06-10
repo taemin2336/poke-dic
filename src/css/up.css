@@ -1,0 +1,19 @@
+.wrap {
+   background-color: azure;
+}
+
+.up {
+   background-color: antiquewhite;
+}
+
+.low {
+   position: absolute;
+   bottom: 0px;
+   height: 80px;
+   background-color: antiquewhite;
+   width: 100%;
+   text-align: center;
+}
+.low > p {
+   color: blue;
+}
