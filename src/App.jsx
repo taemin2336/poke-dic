@@ -73,11 +73,12 @@ function App() {
                mon.id === id
                   ? {
                        ...mon,
-                       text: mon.text,
+                       text: '모래성이당',
                     }
                   : mon
             )
          )
+         alert('진화가 안돼요!')
       },
       [mons]
    )
